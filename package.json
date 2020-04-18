@@ -1,5 +1,5 @@
 {
-  "name": "relay-compiler-language-js-only-flow",
+  "name": "@latticehr/relay-compiler-language-js-only-flow",
   "version": "0.0.1",
   "description": "Only generate flow types using the relay-compiler",
   "repository": "https://github.com/latticehr/relay-compiler-language-js-only-flow",
