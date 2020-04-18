@@ -1,0 +1,24 @@
+{
+  "name": "relay-compiler-language-js-only-flow",
+  "version": "0.0.1",
+  "description": "Only generate flow types using the relay-compiler",
+  "repository": "https://github.com/latticehr/relay-compiler-language-js-only-flow",
+  "main": "index.js",
+  "author": "Eric Koslow <ekoslow@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf lib && babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "peerDependencies": {
+    "relay-compiler": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-flow": "^7.9.0",
+    "graphql": "^15.0.0",
+    "relay-compiler": "^9.0.0"
+  }
+}
